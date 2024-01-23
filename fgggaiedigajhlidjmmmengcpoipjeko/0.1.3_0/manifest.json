@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Video Speed Control"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Easily control HTML5 video playback speed via toolbar popup",
+   "homepage_url": "https://mybrowseraddon.com/video-speed-control.html",
+   "host_permissions": [ "*://*.youtube.com/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyyYDsidvyuNIQ//qtT2zsbe3FMq4ESPY0KdOhxo1SBknFQTK/afuG+fVREAKzVhmhyOpJfW04egC7pIAfSQLizGCE98f36seMZdruvfMTuQwawsGDnLb8aK12g3zkctaKv46arqW0sO9VjYh/njr7qxW3HSinGmziw4o3Ceyy7M5X8YTI5qZNhTSV8aTH4ZFd4OTk4VwMQnnHilTuMqB5Xyd7JQSr1zMQ3hFAm75P0Od/+mzsXDlULqJ2zBNNpt4jtaVlluGrKwm7aimfuFrOoytB+zjPD0zgrufLZfNKA1ouV3/8RVbo9g5ElPVnPxMDcofukb2D6YDUntaSFzTnwIDAQAB",
+   "manifest_version": 3,
+   "name": "Video Speed Control",
+   "offline_enabled": true,
+   "permissions": [ "storage", "activeTab", "scripting" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "0.1.3"
+}
